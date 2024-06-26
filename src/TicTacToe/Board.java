@@ -42,7 +42,7 @@ public class Board {
         }
         return true;
     }
- // has to be reviewed
+ // has to be reviewed... will update later
     public boolean isWinner(char player) {
         for (int i = 0; i < BOARD_SIZE; i++) {
             if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
