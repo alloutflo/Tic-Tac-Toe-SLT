@@ -65,4 +65,9 @@ public class Board {
         board[row][col] = marker;
         return true;
     }
+
+    public char getCell(int i, int j) {
+        return board[i][j];
+    }
+
 }
