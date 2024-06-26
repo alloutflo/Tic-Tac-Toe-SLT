@@ -1,5 +1,6 @@
 package TicTacToe;
 
+// a comment here
 public class Board {
     private static final int BOARD_SIZE = 3;
     private static final char EMPTY = ' ';
