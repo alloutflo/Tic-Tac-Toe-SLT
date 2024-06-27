@@ -11,6 +11,7 @@ public class TicTacToe {
         currentPlayer = new Player('X');
     }
 
+
     public void playGame() {
         Scanner scanner = new Scanner(System.in);
 
