@@ -36,7 +36,7 @@ jobs:
         run: mvn package
 
       - name: Copy to staging
-        run: mkdir staging && cp /home/runner/work/Tic-Tac-Toe-SLT/Tic-Tac-Toe-SLT/target/TicTacToe.jar staging
+        run: mkdir staging && cp /Tic-Tac-Toe-SLT/Tic-Tac-Toe-SLT/target/TicTacToe.jar staging
 
       - name: upload
         uses: actions/upload-artifact@v4
