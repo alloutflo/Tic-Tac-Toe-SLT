@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>TestApplication</artifactId>
+    <artifactId>TicTacToe</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -52,7 +52,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.3.1</version>
                 <configuration>
                     <configLocation>checkstyle.xml</configLocation>
                 </configuration>
@@ -63,7 +63,6 @@
                         </reports>
                     </reportSet>
                 </reportSets>
-
             </plugin>
         </plugins>
     </reporting>
